@@ -7,6 +7,11 @@ html{
 }
 nav {font-family: sans-serif; font-size: 10px;}
 
+main { 
+    columns: 420px 2;
+    column-gap: 60px;
+}
+
 #main {width: 900px; margin: 10px auto;}
 /* Use the 'Bungee Inline' font at 46px and lighter weight for the restaurant name. */
 h1{
@@ -52,4 +57,3 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    
